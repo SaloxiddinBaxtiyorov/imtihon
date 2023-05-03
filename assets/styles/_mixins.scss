@@ -1,0 +1,30 @@
+
+@mixin h1{
+  color: white;
+  font-family: "Arial";
+}
+.h1{
+  @include h1
+}
+@mixin p{
+  color: white;
+}
+.p{
+  @include p
+}
+@mixin h2{
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+}
+.h2{
+  @include  h2
+}
+@mixin h3{
+  color: white;
+  margin-top: 10px;
+  font-family: Arial;
+}
+.h3{
+  @include  h3
+}

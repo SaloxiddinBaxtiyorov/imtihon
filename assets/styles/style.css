@@ -1,0 +1,423 @@
+.h1 {
+  color: white;
+  font-family: "Arial"; }
+
+.p {
+  color: white; }
+
+.h2 {
+  color: black;
+  text-align: center;
+  margin-top: 10px; }
+
+.h3 {
+  color: white;
+  margin-top: 10px;
+  font-family: Arial; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #0D0D2B;
+  height: 2090px; }
+  body .container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1340px;
+    padding: 0 16px;
+    box-sizing: border-box; }
+    body .container .navbar {
+      display: flex; }
+      body .container .navbar .my-img {
+        width: 150px;
+        height: 50px; }
+      body .container .navbar .navbar_ul {
+        display: flex;
+        margin: 12px 500px;
+        align-items: center; }
+        body .container .navbar .navbar_ul li {
+          list-style: none; }
+          body .container .navbar .navbar_ul li .navbar_li_a {
+            color: white;
+            text-decoration: none;
+            margin-left: 50px; }
+        body .container .navbar .navbar_ul .navbar_ul_img {
+          margin-left: 20px; }
+        body .container .navbar .navbar_ul .navbar_button {
+          background-color: #3671E9;
+          border-radius: 30px;
+          padding: 15px;
+          border: none;
+          color: white;
+          width: 100px;
+          margin-left: 20px; }
+    body .container .home {
+      display: flex; }
+      body .container .home .left .home_left_text {
+        border-radius: 20px;
+        display: flex;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        width: 340px;
+        margin-top: 100px; }
+        body .container .home .left .home_left_text .one {
+          background-color: white;
+          border-radius: 20px;
+          padding: 10px; }
+        body .container .home .left .home_left_text .two {
+          padding: 10px;
+          color: white; }
+      body .container .home .left .h1 {
+        font-size: 55px;
+        margin-top: 20px; }
+      body .container .home .left .home_left_button {
+        background-color: #3671E9;
+        padding: 15px 30px;
+        border-radius: 50px;
+        border: none;
+        margin-top: 20px; }
+      body .container .home .right .home_right_img {
+        margin-left: 100px; }
+      body .container .home .images {
+        position: relative; }
+        body .container .home .images .images_img {
+          position: absolute;
+          right: 200px;
+          top: 200px; }
+        body .container .home .images .images_img2 {
+          position: absolute;
+          right: -239px;
+          top: 270px; }
+    body .container .page_3 .boxes {
+      margin-top: 150px;
+      display: flex; }
+      body .container .page_3 .boxes .box-1 {
+        margin-left: 110px;
+        display: flex; }
+        body .container .page_3 .boxes .box-1 .texts {
+          margin-left: 20px; }
+    body .container .page_3 .img-block {
+      display: flex; }
+      body .container .page_3 .img-block .left .img_block_left_img {
+        margin-top: 80px; }
+      body .container .page_3 .img-block .right {
+        margin-left: 90px; }
+        body .container .page_3 .img-block .right .h1 {
+          margin-top: 200px; }
+        body .container .page_3 .img-block .right .p {
+          margin-top: 20px; }
+        body .container .page_3 .img-block .right .img-block_right_btn {
+          margin-top: 20px;
+          background-color: #3671E9;
+          border: none;
+          border-radius: 20px;
+          padding: 15px 30px;
+          color: white;
+          font-family: "Arial Black"; }
+      body .container .page_3 .img-block .left-images {
+        position: relative; }
+        body .container .page_3 .img-block .left-images .page_3_img_block_right_img {
+          position: absolute;
+          left: 50px; }
+        body .container .page_3 .img-block .left-images .page_3_img_block_right_img2 {
+          position: absolute;
+          top: 450px;
+          left: 60px; }
+    body .container .page-4 {
+      margin-top: 200px;
+      position: absolute; }
+      body .container .page-4 .h1 {
+        text-align: center;
+        position: relative; }
+      body .container .page-4 .p {
+        text-align: center;
+        margin-top: 20px;
+        position: relative; }
+      body .container .page-4 .box {
+        background-color: #FBFCFE;
+        height: 350px;
+        width: 1000px;
+        border-radius: 20px;
+        margin-left: 150px;
+        margin-top: 100px; }
+        body .container .page-4 .box .page-4_input {
+          border: none;
+          outline: none;
+          width: 370px;
+          border-bottom: 1px solid black;
+          font-size: 22px;
+          margin: 60px 0px 0px 60px; }
+        body .container .page-4 .box .page-4_box_select {
+          border: none;
+          outline: none;
+          width: 200px;
+          color: grey;
+          border-bottom: 1px solid black;
+          font-size: 22px;
+          margin: 60px 0px 0px 60px; }
+        body .container .page-4 .box .page-4_button {
+          background-color: #3671E9;
+          padding: 15px 30px;
+          border: none;
+          border-radius: 50px;
+          margin-left: 50px;
+          font-family: "Arial Black";
+          color: white; }
+      body .container .page-4 .box-2 {
+        margin: 90px 0px 0px 55px; }
+        body .container .page-4 .box-2 .page-4_box_2_h4 {
+          color: blue;
+          font-family: "Arial Black"; }
+        body .container .page-4 .box-2 .page-4_box_2_h1 {
+          font-family: "Arial Black";
+          margin-top: 15px; }
+          body .container .page-4 .box-2 .page-4_box_2_h1 .box-2_blue {
+            color: blue; }
+    body .container .page-5 {
+      margin-top: 900px; }
+      body .container .page-5 .h1 {
+        text-align: center;
+        font-family: "Arial";
+        color: white; }
+      body .container .page-5 .page-5_p {
+        color: white;
+        text-align: center; }
+      body .container .page-5 .boxes {
+        display: flex;
+        margin-top: 50px; }
+        body .container .page-5 .boxes .box-1 {
+          margin-left: 100px;
+          border-radius: 20px;
+          background-color: #2B076E;
+          padding: 50px 30px;
+          width: 300px; }
+          body .container .page-5 .boxes .box-1 .page-5-img {
+            margin-left: 80px; }
+          body .container .page-5 .boxes .box-1 .texts {
+            display: flex;
+            align-items: center;
+            margin-left: 70px;
+            margin-top: 20px; }
+          body .container .page-5 .boxes .box-1 .p {
+            text-align: center;
+            margin-top: 20px; }
+          body .container .page-5 .boxes .box-1 button {
+            background-color: #3671E9;
+            border-radius: 30px;
+            padding: 15px;
+            border: none;
+            margin-left: 53px;
+            margin-top: 20px;
+            color: white; }
+        body .container .page-5 .boxes .box-2 {
+          margin-left: 100px;
+          border-radius: 20px;
+          background-color: white;
+          padding: 50px 30px;
+          width: 300px; }
+          body .container .page-5 .boxes .box-2 .page-5-img {
+            margin-left: 80px; }
+          body .container .page-5 .boxes .box-2 .texts {
+            display: flex;
+            align-items: center;
+            margin-left: 70px;
+            margin-top: 20px; }
+          body .container .page-5 .boxes .box-2 .p {
+            text-align: center;
+            margin-top: 20px; }
+          body .container .page-5 .boxes .box-2 .my-img {
+            margin-left: 90px; }
+        body .container .page-5 .boxes .box-3 {
+          margin-left: 100px;
+          border-radius: 20px;
+          background-color: white;
+          padding: 50px 30px;
+          width: 300px; }
+          body .container .page-5 .boxes .box-3 .page-5-img {
+            margin-left: 80px; }
+          body .container .page-5 .boxes .box-3 .texts {
+            display: flex;
+            align-items: center;
+            margin-left: 70px;
+            margin-top: 20px; }
+          body .container .page-5 .boxes .box-3 .p {
+            text-align: center;
+            margin-top: 20px; }
+          body .container .page-5 .boxes .box-3 .my-img {
+            margin-left: 90px; }
+    body .container .page-6 .h1 {
+      text-align: center;
+      margin-top: 200px; }
+    body .container .page-6 .texts {
+      display: flex; }
+      body .container .page-6 .texts .left .h1_left {
+        color: white;
+        font-family: "Arial Black";
+        margin-top: 60px; }
+      body .container .page-6 .texts .left .p {
+        margin-top: 20px; }
+      body .container .page-6 .texts .left .left_button {
+        margin-top: 20px;
+        background-color: #3671E9;
+        border-radius: 20px;
+        padding: 15px;
+        border: none; }
+      body .container .page-6 .texts .right {
+        border-radius: 20px;
+        background-color: #35068C;
+        width: 600px;
+        height: 300px;
+        margin-top: 60px;
+        padding: 40px;
+        margin-left: 200px; }
+        body .container .page-6 .texts .right .bitcoin {
+          display: flex;
+          align-items: center; }
+          body .container .page-6 .texts .right .bitcoin .number {
+            margin-left: 270px;
+            color: blue; }
+          body .container .page-6 .texts .right .bitcoin .my-bitcoin {
+            width: 50px;
+            height: 50px; }
+          body .container .page-6 .texts .right .bitcoin .p {
+            margin: 10px; }
+        body .container .page-6 .texts .right .box {
+          margin-left: 50px;
+          display: flex; }
+          body .container .page-6 .texts .right .box .box-1 {
+            padding: 13px;
+            background-color: #491F98;
+            width: 130px;
+            height: 130px;
+            border-radius: 20px; }
+          body .container .page-6 .texts .right .box .box-2 {
+            padding: 13px;
+            background-color: #491F98;
+            width: 130px;
+            height: 90px;
+            margin-left: 100px;
+            border-radius: 20px; }
+    body .container .texts2 {
+      display: flex;
+      margin-top: 100px; }
+      body .container .texts2 .page-6_img {
+        width: 700px;
+        height: 400px; }
+      body .container .texts2 .text {
+        padding: 70px; }
+        body .container .texts2 .text .p {
+          margin-top: 20px; }
+        body .container .texts2 .text .button {
+          padding: 15px;
+          border: none;
+          border-radius: 50px;
+          background-color: #3671E9;
+          margin-top: 30px; }
+    body .container .texts3 {
+      display: flex;
+      margin-top: 100px; }
+      body .container .texts3 .text .bitcoin {
+        margin-left: 100px;
+        background-color: #2B076E;
+        width: 600px;
+        padding: 30px;
+        align-items: center;
+        border-radius: 20px;
+        position: absolute; }
+        body .container .texts3 .text .bitcoin .text {
+          display: flex;
+          align-items: center; }
+        body .container .texts3 .text .bitcoin .number {
+          margin-left: 70px;
+          color: blue; }
+        body .container .texts3 .text .bitcoin .bitcoin-2 {
+          display: flex;
+          background-color: #4610AD;
+          border-radius: 20px;
+          padding: 20px;
+          position: relative;
+          right: 100px; }
+        body .container .texts3 .text .bitcoin .my-bitcoin {
+          width: 40px;
+          height: 40px;
+          margin-top: 20px; }
+        body .container .texts3 .text .bitcoin .p {
+          margin: 10px;
+          margin-top: 30px; }
+        body .container .texts3 .text .bitcoin .h3 {
+          margin-left: 70px; }
+      body .container .texts3 .text .button {
+        padding: 15px;
+        border: none;
+        border-radius: 50px;
+        background-color: #3671E9;
+        margin-top: 30px; }
+  body .page-7 .box {
+    display: flex;
+    background: #3671E9;
+    width: 1200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 100px;
+    background-image: url("../images/Mask Group.png");
+    padding: 30px 50px; }
+    body .page-7 .box .box-texts .p {
+      margin-top: 30px; }
+    body .page-7 .box .input-box {
+      height: 30px;
+      font-size: 30px;
+      border: none;
+      outline: none;
+      width: 370px;
+      border-bottom: 1px solid black;
+      margin: 60px 0px 0px 60px;
+      background-color: #3671E9; }
+    body .page-7 .box .my-button {
+      padding: 15px;
+      border: none;
+      border-radius: 50px;
+      background-color: white;
+      margin-top: 60px;
+      height: 50px;
+      margin-left: 50px;
+      width: 130px; }
+  body .footer {
+    margin-top: 100px;
+    margin-left: 50px; }
+    body .footer .foot {
+      display: flex; }
+      body .footer .foot .mine {
+        width: 150px;
+        height: 50px;
+        margin-top: 90px; }
+      body .footer .foot .h3 {
+        margin-left: 200px; }
+    body .footer .foot-2 {
+      display: flex;
+      margin-left: 170px; }
+      body .footer .foot-2 .boxxes {
+        margin-left: 30px; }
+        body .footer .foot-2 .boxxes .my_boxxes_img {
+          width: 50px;
+          margin: 10px;
+          height: 40px; }
+      body .footer .foot-2 .p {
+        margin: 20px 160px; }
+    body .footer .h3 {
+      margin-top: 100px; }
+  body .icons {
+    display: flex; }
+    body .icons .fa-facebook {
+      margin-left: 760px;
+      color: white;
+      font-size: 20px; }
+    body .icons i {
+      margin: 20px;
+      color: white;
+      font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */
